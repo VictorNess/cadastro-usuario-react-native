@@ -9,30 +9,28 @@ export function Resultado ({route}: any) {
     return(
         <View style = {styles.container}>
 
-        
             <Text style = {styles.text}>
-                Nome:{route.params.nome}
-            </Text>
-
-
-            <Text style = {styles.text}>
-                Telefone:{route.params.telefone}
+                Nome: {route.params.nome}
             </Text>
 
             <Text style = {styles.text}>
-                Endereço:{route.params.endereco}
+                Telefone: {route.params.telefone}
             </Text>
 
             <Text style = {styles.text}>
-                Número:{route.params.numero}
+                Endereço: {route.params.endereco}
             </Text>
 
             <Text style = {styles.text}>
-                Cidade:{route.params.cidade}
+                Número: {route.params.numero}
             </Text>
 
             <Text style = {styles.text}>
-                Estado:{route.params.estado}
+                Cidade: {route.params.cidade}
+            </Text>
+
+            <Text style = {styles.text}>
+                Estado: {route.params.estado}
             </Text>
 
         </View>
